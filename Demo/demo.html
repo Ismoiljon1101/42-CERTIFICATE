@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>42 Beta 3rd Attempt</title>
+   
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet" />
+      
+    <style>
+        body{
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            width: 100%;
+            font-family: Work Sans;
+          }
+        .top{
+            background-image: url(src/bg-black-top.png);
+            height: 340px;
+            width: 390px;
+            object-fit: fill
+          
+        }
+        .down{
+            background-image: url(src/bg-down-black.png);
+            width: 390px;
+            object-fit: fill
+        }
+        .parent{
+            margin: 10px;
+            max-width: 50%;
+        }
+        .image, img{
+            height: 200px;
+        }
+        .image{
+            height: 200px;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+        }
+        .qr-code{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: white;
+            padding: 2px;
+        }
+        #qr-code-image{
+            width: 95px;
+            height: 95px;
+            position: absolute;
+        }
+     
+    </style>
+</head>
+<body>
+    <biggest-box>
+
+        <div class="parent">
+            <div class="label">
+                <span>42 CERTIFICATE</span>
+            </div>
+            
+            <div class="child">
+             <div class="top">
+                <div class="image">
+                    <img id="logo-42" src="src/42-logo.png" alt="">
+                </div>
+                <div class="content">
+                    <span style="font-size: 34px;">
+                        <span class="algorithm-yellow"> "Algoritimlar"</span> kusini <br> tamomlagani haqida
+                    </span>
+                    <span>
+                        SERTIFIKAT
+                    </span>
+                    <span>
+                        Jasur Hakimov
+                    </span>
+                    <span >
+                        Ushbu sertifikat Jasur Hakimovga <span class="algorithm-white">2024-yil, 25-iyun</span>  kuni 42.uz <br>
+                        platformasida <span class="algorithm-white">“Algoritmlar”</span>  kursini muvaffaqiyatli <br>
+                        tamomlagani uchun berildi
+                    </span>
+                </div>
+             </div>
+             <div class="down">
+                <div class="qr-code">
+                    <img id="qr-code-image" src="src/qr-code.png" alt="">
+                </div>
+                <div class="people">
+                    <img src="src/sign.png" alt="">
+                </div>
+             </div>
+             
+            </div>
+            
+        </div>
+        <div class="parent">
+            <div class="label">
+                <span>42 CERTIFICATE</span>
+            </div>
+            
+            <div class="child">
+             <div class="top">
+                <div class="image">
+                    <img id="logo-42" src="src/42-logo.png" alt="">
+                </div>
+                <div class="content">
+                    <span style="font-size: 34px;">
+                        <span class="algorithm-yellow"> "Algoritimlar"</span> kusini <br> tamomlagani haqida
+                    </span>
+                    <span>
+                        SERTIFIKAT
+                    </span>
+                    <span>
+                        Jasur Hakimov
+                    </span>
+                    <span >
+                        Ushbu sertifikat Jasur Hakimovga <span class="algorithm-white">2024-yil, 25-iyun</span>  kuni 42.uz <br>
+                        platformasida <span class="algorithm-white">“Algoritmlar”</span>  kursini muvaffaqiyatli <br>
+                        tamomlagani uchun berildi
+                    </span>
+                </div>
+             </div>
+             <div class="down">
+                <div class="qr-code">
+                    <img id="qr-code-image" src="src/qr-code.png" alt="">
+                </div>
+                <div class="people">
+                    <img id="sign" src="src/sign.png" alt="">
+                </div>
+            </div>
+            
+        </div>
+        
+    </div>
+</biggest-box>
+</body>
+</html>
